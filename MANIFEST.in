@@ -1,0 +1,13 @@
+include README.md
+include THIRD_PARTY.md
+recursive-include docs *.md
+recursive-include examples *.py
+recursive-include examples *.ipynb
+recursive-include tests *.py
+recursive-include src/bayesian_rf/_cps *.f *.md LICENSE*
+prune insight_data
+include insight_data/README.md
+include insight_data/manifest.json
+prune example_synthetics
+prune results
+prune tmp

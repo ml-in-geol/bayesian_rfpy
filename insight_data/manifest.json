@@ -1,0 +1,2705 @@
+{
+  "schema_version": 1,
+  "selection": {
+    "families": [
+      "LOW_FREQUENCY",
+      "BROADBAND"
+    ],
+    "qualities": [
+      "A",
+      "B"
+    ]
+  },
+  "catalog": {
+    "path": "catalogs/events_extended_multiorigin_v14_2023-01-01.xml",
+    "sha256": "06b1af486bb912ac8b6e0af57c442433ddb20b065267d5a39c2509f09072c1ba"
+  },
+  "denoised_source": "https://doi.org/10.5281/zenodo.11995107",
+  "deglitched_source": "User-supplied physical displacement ZNE miniSEED; processing history external",
+  "events": [
+    {
+      "name": "S0105a",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2019-03-14T20:59:21.050826Z",
+      "distance_deg": 32.52,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2019-03-14T21:03:31.110886Z",
+      "back_azimuth_deg": 111.86683090034019,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0105a_DISP_ZNE.mseed",
+          "path": "deglitched/S0105a.mseed",
+          "sha256": "cd1c3172c2e6c5eab23a31b50720f26ded99e2f4d65619cebe526e139458f571",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2019-03-14T20:59:21.080000Z",
+              "end_utc": "2019-03-14T21:59:21.030000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2019-03-14T20:59:21.080000Z",
+              "end_utc": "2019-03-14T21:59:21.030000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2019-03-14T20:59:21.081000Z",
+              "end_utc": "2019-03-14T21:59:21.031000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0105a",
+          "path": "denoised/S0105a.mseed",
+          "sha256": "c833eb11b6fc9f9ed49f070b05b1588c7c4c1afe3cd8e0e132960b7447be3649",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2019-03-14T21:00:28.143000Z",
+              "end_utc": "2019-03-14T21:27:40.143000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2019-03-14T21:00:28.143000Z",
+              "end_utc": "2019-03-14T21:27:40.143000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2019-03-14T21:00:28.143000Z",
+              "end_utc": "2019-03-14T21:27:40.143000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0173a",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2019-05-23T02:19:09.852879Z",
+      "distance_deg": 30.01,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2019-05-23T02:22:59.069095Z",
+      "back_azimuth_deg": 88.00484646745316,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0173a_DISP_ZNE.mseed",
+          "path": "deglitched/S0173a.mseed",
+          "sha256": "42e752a9f8d976b2f66c6d75498777e7ed39288f1fd757e8be7cfff873c2b386",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2019-05-23T02:19:09.881000Z",
+              "end_utc": "2019-05-23T03:19:09.831000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2019-05-23T02:19:09.881000Z",
+              "end_utc": "2019-05-23T03:19:09.831000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2019-05-23T02:19:09.880000Z",
+              "end_utc": "2019-05-23T03:19:09.830000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0173a",
+          "path": "denoised/S0173a.mseed",
+          "sha256": "0c837611948cd4f1dfcde85aa169e6b3a07a525e8847a7137823238493a25b8e",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2019-05-23T02:19:58.065000Z",
+              "end_utc": "2019-05-23T02:47:10.065000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2019-05-23T02:19:58.065000Z",
+              "end_utc": "2019-05-23T02:47:10.065000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2019-05-23T02:19:58.065000Z",
+              "end_utc": "2019-05-23T02:47:10.065000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0183a",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2019-06-03T02:22:01.995079Z",
+      "distance_deg": 46.36,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2019-06-03T02:27:49.049133Z",
+      "back_azimuth_deg": 85.01723099778785,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0183a_DISP_ZNE.mseed",
+          "path": "deglitched/S0183a.mseed",
+          "sha256": "36263dc41f3588ec1ba224e46e1c8de928ed15ba0497ee0be3257bde95e1666b",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2019-06-03T02:22:02.022000Z",
+              "end_utc": "2019-06-03T03:22:01.972000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2019-06-03T02:22:02.023000Z",
+              "end_utc": "2019-06-03T03:22:01.973000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2019-06-03T02:22:02.023000Z",
+              "end_utc": "2019-06-03T03:22:01.973000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0183a",
+          "path": "denoised/S0183a.mseed",
+          "sha256": "b3f384ed5c88fab6a89032f34fc42d42a6c97ec96962927ab20877c1269a7c62",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2019-06-03T02:24:47.660000Z",
+              "end_utc": "2019-06-03T02:51:59.660000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2019-06-03T02:24:47.660000Z",
+              "end_utc": "2019-06-03T02:51:59.660000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2019-06-03T02:24:47.660000Z",
+              "end_utc": "2019-06-03T02:51:59.660000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0185a",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2019-06-05T02:06:37.945316Z",
+      "distance_deg": 59.83,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2019-06-05T02:13:50.450822Z",
+      "back_azimuth_deg": 0.0,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0185a_DISP_ZNE.mseed",
+          "path": "deglitched/S0185a.mseed",
+          "sha256": "0942cfb104055bf5b47039f2a73bc92b4c2c8f316ba8b63b69929d17118b8c8a",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2019-06-05T02:06:37.963000Z",
+              "end_utc": "2019-06-05T03:06:37.913000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2019-06-05T02:06:37.963000Z",
+              "end_utc": "2019-06-05T03:06:37.913000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2019-06-05T02:06:37.963000Z",
+              "end_utc": "2019-06-05T03:06:37.913000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0185a",
+          "path": "denoised/S0185a.mseed",
+          "sha256": "57674675a81696340f84420af828664aa32df89f11c5ce8da356b9f4443926b6",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2019-06-05T02:09:50.301000Z",
+              "end_utc": "2019-06-05T02:37:02.301000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2019-06-05T02:09:50.301000Z",
+              "end_utc": "2019-06-05T02:37:02.301000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2019-06-05T02:09:50.301000Z",
+              "end_utc": "2019-06-05T02:37:02.301000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0189a",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2019-06-09T05:35:55.504179Z",
+      "distance_deg": 33.42,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2019-06-09T05:40:05.564239Z",
+      "back_azimuth_deg": 0.0,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0189a_DISP_ZNE.mseed",
+          "path": "deglitched/S0189a.mseed",
+          "sha256": "94a1604875297a9a2ebe18cbdecc5a09d24bf6960975a150239580cc95b34503",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2019-06-09T05:35:55.530000Z",
+              "end_utc": "2019-06-09T06:35:55.480000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2019-06-09T05:35:55.530000Z",
+              "end_utc": "2019-06-09T06:35:55.480000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2019-06-09T05:35:55.531000Z",
+              "end_utc": "2019-06-09T06:35:55.481000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0189a",
+          "path": "denoised/S0189a.mseed",
+          "sha256": "1fbf3061f471b6471b8b4eae56a0193fc2da3dda4ff3af75e01ba5ed58a07476",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2019-06-09T05:36:45.342000Z",
+              "end_utc": "2019-06-09T06:03:57.342000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2019-06-09T05:36:45.342000Z",
+              "end_utc": "2019-06-09T06:03:57.342000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2019-06-09T05:36:45.342000Z",
+              "end_utc": "2019-06-09T06:03:57.342000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0235b",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2019-07-26T12:15:38.748239Z",
+      "distance_deg": 28.75,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2019-07-26T12:19:18.032523Z",
+      "back_azimuth_deg": 77.07271779698519,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0235b_DISP_ZNE.mseed",
+          "path": "deglitched/S0235b.mseed",
+          "sha256": "5ca1dbe0348378f97bc904a552410d3bfd25e566d18f50cf70e2c3d07ebd3844",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2019-07-26T12:15:38.758000Z",
+              "end_utc": "2019-07-26T13:15:38.708000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2019-07-26T12:15:38.758000Z",
+              "end_utc": "2019-07-26T13:15:38.708000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2019-07-26T12:15:38.758000Z",
+              "end_utc": "2019-07-26T13:15:38.708000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0235b",
+          "path": "denoised/S0235b.mseed",
+          "sha256": "62d3bfc488c16a57c271a1cc93588b179ba139a9b09b60a07fbe6e6d822bf73d",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2019-07-26T12:16:16.977000Z",
+              "end_utc": "2019-07-26T12:43:28.977000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2019-07-26T12:16:16.977000Z",
+              "end_utc": "2019-07-26T12:43:28.977000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2019-07-26T12:16:16.977000Z",
+              "end_utc": "2019-07-26T12:43:28.977000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0290b",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2019-09-21T03:15:13.328456Z",
+      "distance_deg": 30.37,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2019-09-21T03:19:09.490618Z",
+      "back_azimuth_deg": 0.0,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0290b_DISP_ZNE.mseed",
+          "path": "deglitched/S0290b.mseed",
+          "sha256": "226cb140047e1c6f7c33624aada91f167ee9b5803eb9600c8f77d2785331fb93",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2019-09-21T03:15:13.335000Z",
+              "end_utc": "2019-09-21T04:15:13.335000Z",
+              "npts": 72001,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2019-09-21T03:15:13.335000Z",
+              "end_utc": "2019-09-21T04:15:13.335000Z",
+              "npts": 72001,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2019-09-21T03:15:13.335000Z",
+              "end_utc": "2019-09-21T04:15:13.335000Z",
+              "npts": 72001,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0290b",
+          "path": "denoised/S0290b.mseed",
+          "sha256": "b56ffe1f74f49c30b782016d5cdb9fabd39f2221e098d7cc042042a3566fa87b",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2019-09-21T03:15:49.929000Z",
+              "end_utc": "2019-09-21T03:43:01.929000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2019-09-21T03:15:49.929000Z",
+              "end_utc": "2019-09-21T03:43:01.929000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2019-09-21T03:15:49.929000Z",
+              "end_utc": "2019-09-21T03:43:01.929000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0325a",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2019-10-26T06:54:04.954477Z",
+      "distance_deg": 39.71,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2019-10-26T06:58:57.000523Z",
+      "back_azimuth_deg": 57.15132467420431,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0325a_DISP_ZNE.mseed",
+          "path": "deglitched/S0325a.mseed",
+          "sha256": "8dbbe5e7ca33e4d4590a82f29700994375ff203efb7ff23be05a02c281a909a1",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2019-10-26T06:54:04.956000Z",
+              "end_utc": "2019-10-26T07:54:04.956000Z",
+              "npts": 72001,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2019-10-26T06:54:04.956000Z",
+              "end_utc": "2019-10-26T07:54:04.956000Z",
+              "npts": 72001,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2019-10-26T06:54:04.956000Z",
+              "end_utc": "2019-10-26T07:54:04.956000Z",
+              "npts": 72001,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0325a",
+          "path": "denoised/S0325a.mseed",
+          "sha256": "25895345edfbbc3a22492f03117346cee556c759276f6b0523487bc2b79de109",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2019-10-26T06:55:55.163000Z",
+              "end_utc": "2019-10-26T07:23:07.163000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2019-10-26T06:55:55.163000Z",
+              "end_utc": "2019-10-26T07:23:07.163000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2019-10-26T06:55:55.163000Z",
+              "end_utc": "2019-10-26T07:23:07.163000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0407a",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2020-01-19T09:54:02.828041Z",
+      "distance_deg": 29.29,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2020-01-19T09:57:45.773987Z",
+      "back_azimuth_deg": 89.99235140211908,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0407a_DISP_ZNE.mseed",
+          "path": "deglitched/S0407a.mseed",
+          "sha256": "252b48fe1642cf84e3323f6920a0a6c2cf9531d01fda39145c2143f1466fd5f9",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2020-01-19T09:54:02.866000Z",
+              "end_utc": "2020-01-19T10:54:02.816000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2020-01-19T09:54:02.866000Z",
+              "end_utc": "2020-01-19T10:54:02.816000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2020-01-19T09:54:02.866000Z",
+              "end_utc": "2020-01-19T10:54:02.816000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0407a",
+          "path": "denoised/S0407a.mseed",
+          "sha256": "ea3d04a79e4902e1d2219508bd2384de1fea840af2d41211e80bb699c6d25f59",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2020-01-19T09:54:40.531000Z",
+              "end_utc": "2020-01-19T10:21:52.531000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2020-01-19T09:54:40.531000Z",
+              "end_utc": "2020-01-19T10:21:52.531000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2020-01-19T09:54:40.531000Z",
+              "end_utc": "2020-01-19T10:21:52.531000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0409d",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2020-01-21T11:27:02.464172Z",
+      "distance_deg": 31.08,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2020-01-21T11:31:05.388096Z",
+      "back_azimuth_deg": 0.0,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0409d_DISP_ZNE.mseed",
+          "path": "deglitched/S0409d.mseed",
+          "sha256": "b6dc2c76c9cb676800b1e45d73425d526ca1fd475b6733667f26a4a51a13f7be",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2020-01-21T11:27:02.490000Z",
+              "end_utc": "2020-01-21T12:27:02.440000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2020-01-21T11:27:02.490000Z",
+              "end_utc": "2020-01-21T12:27:02.440000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2020-01-21T11:27:02.490000Z",
+              "end_utc": "2020-01-21T12:27:02.440000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0409d",
+          "path": "denoised/S0409d.mseed",
+          "sha256": "269e693b0ca63927284717bca9a62669746c955737aba24fe80f0b910e2fa981",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2020-01-21T11:27:42.679000Z",
+              "end_utc": "2020-01-21T11:54:54.679000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2020-01-21T11:27:42.679000Z",
+              "end_utc": "2020-01-21T11:54:54.679000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2020-01-21T11:27:42.679000Z",
+              "end_utc": "2020-01-21T11:54:54.679000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0474a",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2020-03-28T00:32:48.989803Z",
+      "distance_deg": 29.11,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2020-03-28T00:35:20.557371Z",
+      "back_azimuth_deg": 96.94834733512178,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0474a_DISP_ZNE.mseed",
+          "path": "deglitched/S0474a.mseed",
+          "sha256": "c51d697987279e66af4577392d314402e8cf0ba55aaedd0744712d12f68609e6",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2020-03-28T00:32:49.020000Z",
+              "end_utc": "2020-03-28T01:32:48.970000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2020-03-28T00:32:49.020000Z",
+              "end_utc": "2020-03-28T01:32:48.970000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2020-03-28T00:32:49.020000Z",
+              "end_utc": "2020-03-28T01:32:48.970000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0474a",
+          "path": "denoised/S0474a.mseed",
+          "sha256": "83ed493a1794c58ac3f7aa6e80d964b7f64a82dd075fc5ba6e1e4da7b9a02197",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2020-03-28T00:31:00.439000Z",
+              "end_utc": "2020-03-28T00:58:12.439000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2020-03-28T00:31:00.439000Z",
+              "end_utc": "2020-03-28T00:58:12.439000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2020-03-28T00:31:00.439000Z",
+              "end_utc": "2020-03-28T00:58:12.439000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0484b",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2020-04-07T08:48:20.567930Z",
+      "distance_deg": 31.8,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2020-04-07T08:52:24.077440Z",
+      "back_azimuth_deg": 99.93001688702715,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0484b_DISP_ZNE.mseed",
+          "path": "deglitched/S0484b.mseed",
+          "sha256": "be06e9153e0774e6071d77865929f26fb1e009121c3b8cd2d348aba674ac3e17",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2020-04-07T08:48:20.576000Z",
+              "end_utc": "2020-04-07T09:48:20.526000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2020-04-07T08:48:20.576000Z",
+              "end_utc": "2020-04-07T09:48:20.526000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2020-04-07T08:48:20.576000Z",
+              "end_utc": "2020-04-07T09:48:20.526000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0484b",
+          "path": "denoised/S0484b.mseed",
+          "sha256": "090de0284e7cddc426016944a07b7f1806c0f3caad14449c2ed75ae815f4d137",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2020-04-07T08:49:16.195000Z",
+              "end_utc": "2020-04-07T09:16:28.195000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2020-04-07T08:49:16.195000Z",
+              "end_utc": "2020-04-07T09:16:28.195000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2020-04-07T08:49:16.195000Z",
+              "end_utc": "2020-04-07T09:16:28.195000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0784a",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2021-02-09T12:11:32.608736Z",
+      "distance_deg": 34.5,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2021-02-09T12:15:56.546674Z",
+      "back_azimuth_deg": 114.85465762800138,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0784a_DISP_ZNE.mseed",
+          "path": "deglitched/S0784a.mseed",
+          "sha256": "5980fc8ca5d61aa0262a12e498ee68eb0a1c97a07a9420926e4ccb7839f6a1bc",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-02-09T12:11:32.609000Z",
+              "end_utc": "2021-02-09T13:11:32.609000Z",
+              "npts": 72001,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-02-09T12:11:32.610000Z",
+              "end_utc": "2021-02-09T13:11:32.610000Z",
+              "npts": 72001,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-02-09T12:11:32.609000Z",
+              "end_utc": "2021-02-09T13:11:32.609000Z",
+              "npts": 72001,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0784a",
+          "path": "denoised/S0784a.mseed",
+          "sha256": "649828d498c23e2bef7c0a92733a80480131cbeb8177d2df9ce229218767af4d",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-02-09T12:12:46.455000Z",
+              "end_utc": "2021-02-09T12:39:58.455000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-02-09T12:12:46.455000Z",
+              "end_utc": "2021-02-09T12:39:58.455000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-02-09T12:12:46.455000Z",
+              "end_utc": "2021-02-09T12:39:58.455000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0802a",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2021-02-28T06:07:21.541000Z",
+      "distance_deg": 30.01,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2021-02-28T06:11:10.703162Z",
+      "back_azimuth_deg": 82.04234575539908,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0802a_DISP_ZNE.mseed",
+          "path": "deglitched/S0802a.mseed",
+          "sha256": "07c744d08005d3b97ad99eda1f14b347c2ab84f606a53764f2dcc78fae8b0edb",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-02-28T06:07:21.576000Z",
+              "end_utc": "2021-02-28T07:07:21.526000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-02-28T06:07:21.576000Z",
+              "end_utc": "2021-02-28T07:07:21.526000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-02-28T06:07:21.576000Z",
+              "end_utc": "2021-02-28T07:07:21.526000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0802a",
+          "path": "denoised/S0802a.mseed",
+          "sha256": "16612eddd511004af72ca00628f4d1cc369fdd3bb646524ebfd01908e9b85e7c",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-02-28T06:08:05.713000Z",
+              "end_utc": "2021-02-28T06:35:17.713000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-02-28T06:08:05.713000Z",
+              "end_utc": "2021-02-28T06:35:17.713000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-02-28T06:08:05.713000Z",
+              "end_utc": "2021-02-28T06:35:17.713000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0809a",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2021-03-07T11:09:26.997140Z",
+      "distance_deg": 29.83,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2021-03-07T11:13:15.949092Z",
+      "back_azimuth_deg": 90.98586331456877,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0809a_DISP_ZNE.mseed",
+          "path": "deglitched/S0809a.mseed",
+          "sha256": "a0da508fd33976b73a33217f323cee8dd1cc5e0fb4bcb12b68b6c52ffae03f50",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-03-07T11:09:27.015000Z",
+              "end_utc": "2021-03-07T12:09:26.965000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-03-07T11:09:27.015000Z",
+              "end_utc": "2021-03-07T12:09:26.965000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-03-07T11:09:27.015000Z",
+              "end_utc": "2021-03-07T12:09:26.965000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0809a",
+          "path": "denoised/S0809a.mseed",
+          "sha256": "7ebe55eecf285be68c7409761b7bebf7fcaa78f599c5753f7c82b2a0b34d922e",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-03-07T11:10:14.920000Z",
+              "end_utc": "2021-03-07T11:37:26.920000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-03-07T11:10:14.920000Z",
+              "end_utc": "2021-03-07T11:37:26.920000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-03-07T11:10:14.920000Z",
+              "end_utc": "2021-03-07T11:37:26.920000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0820a",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2021-03-18T14:51:33.869889Z",
+      "distance_deg": 30.19,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2021-03-18T14:55:23.391411Z",
+      "back_azimuth_deg": 105.89610261105457,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0820a_DISP_ZNE.mseed",
+          "path": "deglitched/S0820a.mseed",
+          "sha256": "f61f7a6960473a4dac4f7a6bff496956fd2626391d498cbb4c3944f14f5cb0d0",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-03-18T14:51:33.891000Z",
+              "end_utc": "2021-03-18T15:51:33.841000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-03-18T14:51:33.891000Z",
+              "end_utc": "2021-03-18T15:51:33.841000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-03-18T14:51:33.891000Z",
+              "end_utc": "2021-03-18T15:51:33.841000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0820a",
+          "path": "denoised/S0820a.mseed",
+          "sha256": "48440ffd890a569691f917aa3a50e096688651b2b00a1174cc015ab84f461b31",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-03-18T14:51:19.846000Z",
+              "end_utc": "2021-03-18T15:18:31.846000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-03-18T14:51:19.846000Z",
+              "end_utc": "2021-03-18T15:18:31.846000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-03-18T14:51:19.846000Z",
+              "end_utc": "2021-03-18T15:18:31.846000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0864a",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2021-05-02T00:57:35.345190Z",
+      "distance_deg": 28.75,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2021-05-02T01:01:17.223068Z",
+      "back_azimuth_deg": 89.99249330006596,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0864a_DISP_ZNE.mseed",
+          "path": "deglitched/S0864a.mseed",
+          "sha256": "27e3640dbe1dff31ee29afefd69911b5883f171b0d5370ee500dd0b58ab51855",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-05-02T00:57:35.375000Z",
+              "end_utc": "2021-05-02T01:57:35.325000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-05-02T00:57:35.375000Z",
+              "end_utc": "2021-05-02T01:57:35.325000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-05-02T00:57:35.375000Z",
+              "end_utc": "2021-05-02T01:57:35.325000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0864a",
+          "path": "denoised/S0864a.mseed",
+          "sha256": "61c76d3022a83e21c91f3b7145d337e67d5c90e782de7f34f8978ad28b73596c",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-05-02T00:58:00.657000Z",
+              "end_utc": "2021-05-02T01:25:12.657000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-05-02T00:58:00.657000Z",
+              "end_utc": "2021-05-02T01:25:12.657000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-05-02T00:58:00.657000Z",
+              "end_utc": "2021-05-02T01:25:12.657000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0899d",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2021-06-07T20:07:39.863868Z",
+      "distance_deg": null,
+      "parent_phase": "x1",
+      "parent_arrival_utc": "2021-06-07T20:10:49.880038Z",
+      "back_azimuth_deg": 0.0,
+      "products": {
+        "deglitched": {
+          "status": "missing",
+          "units": "m",
+          "source_filename": "deglitched_S0899d_DISP_ZNE.mseed"
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0899d",
+          "path": "denoised/S0899d.mseed",
+          "sha256": "3ecdca2aa9943cb42b7facbf7a48193a66fe1833582a1ce0839dc5d014d028e4",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-06-07T20:07:39.875000Z",
+              "end_utc": "2021-06-07T20:34:51.875000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-06-07T20:07:39.875000Z",
+              "end_utc": "2021-06-07T20:34:51.875000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-06-07T20:07:39.875000Z",
+              "end_utc": "2021-06-07T20:34:51.875000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0916d",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2021-06-25T05:13:42.960151Z",
+      "distance_deg": 29.29,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2021-06-25T05:17:32.429620Z",
+      "back_azimuth_deg": 96.94832591156936,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0916d_DISP_ZNE.mseed",
+          "path": "deglitched/S0916d.mseed",
+          "sha256": "6f61132b16acb6a3e06e3185e78ed5c1ae84be50822c6c89f2c02537b16d3200",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-06-25T05:13:43.008000Z",
+              "end_utc": "2021-06-25T06:13:42.908000Z",
+              "npts": 71999,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-06-25T05:13:43.008000Z",
+              "end_utc": "2021-06-25T06:13:42.908000Z",
+              "npts": 71999,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-06-25T05:13:43.008000Z",
+              "end_utc": "2021-06-25T06:13:42.908000Z",
+              "npts": 71999,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0916d",
+          "path": "denoised/S0916d.mseed",
+          "sha256": "1cbbe9f52da2a801f96b88249bb7f00dff410ee19fef31282eebcb0ae7721409",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-06-25T05:14:12.460000Z",
+              "end_utc": "2021-06-25T05:41:24.460000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-06-25T05:14:12.460000Z",
+              "end_utc": "2021-06-25T05:41:24.460000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-06-25T05:14:12.460000Z",
+              "end_utc": "2021-06-25T05:41:24.460000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0918a",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2021-06-27T05:31:55.541885Z",
+      "distance_deg": 27.85,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2021-06-27T05:35:24.641985Z",
+      "back_azimuth_deg": 136.81177503057404,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0918a_DISP_ZNE.mseed",
+          "path": "deglitched/S0918a.mseed",
+          "sha256": "0f58d32d92e3f4395f95db968b22832d7c6612d77583a24e82b39ba0b9435056",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-06-27T05:31:55.553000Z",
+              "end_utc": "2021-06-27T06:31:55.503000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-06-27T05:31:55.553000Z",
+              "end_utc": "2021-06-27T06:31:55.503000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-06-27T05:31:55.553000Z",
+              "end_utc": "2021-06-27T06:31:55.503000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0918a",
+          "path": "denoised/S0918a.mseed",
+          "sha256": "9f9c50f57733517d49f0a9dc4d1111d3de0216eaf1dbb9b6dbf54b11d0760e2c",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-06-27T05:32:04.683000Z",
+              "end_utc": "2021-06-27T05:59:16.683000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-06-27T05:32:04.683000Z",
+              "end_utc": "2021-06-27T05:59:16.683000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-06-27T05:32:04.683000Z",
+              "end_utc": "2021-06-27T05:59:16.683000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S0976a",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2021-08-25T03:32:20.629953Z",
+      "distance_deg": 146.26,
+      "parent_phase": "PP",
+      "parent_arrival_utc": "2021-08-25T03:49:06.404728Z",
+      "back_azimuth_deg": 93.99973511828924,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S0976a_DISP_ZNE.mseed",
+          "path": "deglitched/S0976a.mseed",
+          "sha256": "91cfefe235b6ec9d38ced3c64ea9b99dd8cbe263fa342922b2e1a72186e3186a",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-08-25T03:32:20.634000Z",
+              "end_utc": "2021-08-25T04:32:20.584000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-08-25T03:32:20.634000Z",
+              "end_utc": "2021-08-25T04:32:20.584000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-08-25T03:32:20.634000Z",
+              "end_utc": "2021-08-25T04:32:20.584000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S0976a",
+          "path": "denoised/S0976a.mseed",
+          "sha256": "a7a033213f74e5517936e44ce7778eecb289a23f574f679667c34dcc94d4eff8",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-08-25T03:45:56.454000Z",
+              "end_utc": "2021-08-25T04:13:08.454000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-08-25T03:45:56.454000Z",
+              "end_utc": "2021-08-25T04:13:08.454000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-08-25T03:45:56.454000Z",
+              "end_utc": "2021-08-25T04:13:08.454000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1000a",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2021-09-18T17:46:20.639751Z",
+      "distance_deg": 128.29,
+      "parent_phase": "Pdiff",
+      "parent_arrival_utc": "2021-09-18T17:59:01.470476Z",
+      "back_azimuth_deg": 56.90367243613254,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1000a_DISP_ZNE.mseed",
+          "path": "deglitched/S1000a.mseed",
+          "sha256": "72548aba4dc149ebd0f1dd1dfa3ee6eb8732d04037c07a86b3e72b7b7a208a08",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-09-18T17:46:20.676000Z",
+              "end_utc": "2021-09-18T18:46:20.576000Z",
+              "npts": 71999,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-09-18T17:46:20.676000Z",
+              "end_utc": "2021-09-18T18:46:20.576000Z",
+              "npts": 71999,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-09-18T17:46:20.676000Z",
+              "end_utc": "2021-09-18T18:46:20.576000Z",
+              "npts": 71999,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1000a",
+          "path": "denoised/S1000a.mseed",
+          "sha256": "8d7f90660b92f829ca8fbb8659661f224b5a5c5ff2b97d5ba9de9bb40679205d",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-09-18T17:55:51.660000Z",
+              "end_utc": "2021-09-18T18:23:03.660000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-09-18T17:55:51.660000Z",
+              "end_utc": "2021-09-18T18:23:03.660000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-09-18T17:55:51.660000Z",
+              "end_utc": "2021-09-18T18:23:03.660000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1012d",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2021-10-02T00:29:27.840413Z",
+      "distance_deg": 38.27,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2021-10-02T00:34:13.600173Z",
+      "back_azimuth_deg": 0.0,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1012d_DISP_ZNE.mseed",
+          "path": "deglitched/S1012d.mseed",
+          "sha256": "2a305e78131d0e1674eb5eab0eeb9d73ab54b43ee3d6744d35feb5018b7ccb29",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-10-02T00:29:27.886000Z",
+              "end_utc": "2021-10-02T01:29:27.786000Z",
+              "npts": 71999,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-10-02T00:29:27.885000Z",
+              "end_utc": "2021-10-02T01:29:27.785000Z",
+              "npts": 71999,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-10-02T00:29:27.886000Z",
+              "end_utc": "2021-10-02T01:29:27.786000Z",
+              "npts": 71999,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1012d",
+          "path": "denoised/S1012d.mseed",
+          "sha256": "663dedf73eb8f8762e79d3242e0a4b86235e33af9eb79ab35c6c474057b1b5e5",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-10-02T00:31:03.638000Z",
+              "end_utc": "2021-10-02T00:58:15.638000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-10-02T00:31:03.638000Z",
+              "end_utc": "2021-10-02T00:58:15.638000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-10-02T00:31:03.638000Z",
+              "end_utc": "2021-10-02T00:58:15.638000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1015f",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2021-10-04T04:52:29.248537Z",
+      "distance_deg": 27.49,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2021-10-04T04:56:00.605894Z",
+      "back_azimuth_deg": 88.99921988614447,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1015f_DISP_ZNE.mseed",
+          "path": "deglitched/S1015f.mseed",
+          "sha256": "401c5a846ed541e5c7b93b3f40d404788b3c2951f1eaecda95a8fad9c8fee4b4",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-10-04T04:52:29.265000Z",
+              "end_utc": "2021-10-04T05:52:29.215000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-10-04T04:52:29.265000Z",
+              "end_utc": "2021-10-04T05:52:29.215000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-10-04T04:52:29.265000Z",
+              "end_utc": "2021-10-04T05:52:29.215000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1015f",
+          "path": "denoised/S1015f.mseed",
+          "sha256": "5a959fe7f7427e823fae4b2223abae1393f7ebcc7b6f3b34bd9f73d243947c28",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-10-04T04:52:55.130000Z",
+              "end_utc": "2021-10-04T05:20:07.130000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-10-04T04:52:55.130000Z",
+              "end_utc": "2021-10-04T05:20:07.130000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-10-04T04:52:55.130000Z",
+              "end_utc": "2021-10-04T05:20:07.130000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1022a",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2021-10-11T23:14:29.105382Z",
+      "distance_deg": 30.73,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2021-10-11T23:18:25.025302Z",
+      "back_azimuth_deg": 63.13973819240745,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1022a_DISP_ZNE.mseed",
+          "path": "deglitched/S1022a.mseed",
+          "sha256": "3e5846578b386b71c1a145b63bbb23d773a4e82119ad046f5804c244ff1b3870",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-10-11T23:14:29.142000Z",
+              "end_utc": "2021-10-12T00:14:29.092000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-10-11T23:14:29.142000Z",
+              "end_utc": "2021-10-12T00:14:29.092000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-10-11T23:14:29.142000Z",
+              "end_utc": "2021-10-12T00:14:29.092000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1022a",
+          "path": "denoised/S1022a.mseed",
+          "sha256": "a077af4037d16a55601d0d2a8545a167eb1f3f4e16798bd166f5032c89fd7f91",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-10-11T23:15:19.991000Z",
+              "end_utc": "2021-10-11T23:42:31.991000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-10-11T23:15:19.991000Z",
+              "end_utc": "2021-10-11T23:42:31.991000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-10-11T23:15:19.991000Z",
+              "end_utc": "2021-10-11T23:42:31.991000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1039b",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2021-10-29T16:14:25.453174Z",
+      "distance_deg": 30.37,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2021-10-29T16:16:56.477198Z",
+      "back_azimuth_deg": 0.0,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1039b_DISP_ZNE.mseed",
+          "path": "deglitched/S1039b.mseed",
+          "sha256": "7bb61bcc61881bcf0b788c47f552ef277500d76b311935314a8f35a4713adbbf",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-10-29T16:14:25.462000Z",
+              "end_utc": "2021-10-29T17:14:25.412000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-10-29T16:14:25.462000Z",
+              "end_utc": "2021-10-29T17:14:25.412000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-10-29T16:14:25.462000Z",
+              "end_utc": "2021-10-29T17:14:25.412000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1039b",
+          "path": "denoised/S1039b.mseed",
+          "sha256": "a969f01d6cd71dea242fc7539c9617d87a51bccaccca9d6dde24a802dc3fd4c8",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-10-29T16:12:56.303000Z",
+              "end_utc": "2021-10-29T16:40:08.303000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-10-29T16:12:56.303000Z",
+              "end_utc": "2021-10-29T16:40:08.303000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-10-29T16:12:56.303000Z",
+              "end_utc": "2021-10-29T16:40:08.303000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1048d",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2021-11-07T22:00:15.254098Z",
+      "distance_deg": 30.19,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2021-11-07T22:04:05.355199Z",
+      "back_azimuth_deg": 96.94822138073762,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1048d_DISP_ZNE.mseed",
+          "path": "deglitched/S1048d.mseed",
+          "sha256": "83df9be732d4ef2c1a330d87b476d71c78f770ae42cf07485135ca9feecac11b",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-11-07T22:00:15.255000Z",
+              "end_utc": "2021-11-07T23:00:15.205000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-11-07T22:00:15.255000Z",
+              "end_utc": "2021-11-07T23:00:15.205000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-11-07T22:00:15.255000Z",
+              "end_utc": "2021-11-07T23:00:15.205000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1048d",
+          "path": "denoised/S1048d.mseed",
+          "sha256": "0939a51ec4d543ecd9081b7f9588a77d79078d18d9d170158f7e8ba66d7ae227",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-11-07T22:01:04.386000Z",
+              "end_utc": "2021-11-07T22:28:16.386000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-11-07T22:01:04.386000Z",
+              "end_utc": "2021-11-07T22:28:16.386000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-11-07T22:01:04.386000Z",
+              "end_utc": "2021-11-07T22:28:16.386000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1094b",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2021-12-24T22:38:02.749173Z",
+      "distance_deg": 59.65,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2021-12-24T22:45:09.075499Z",
+      "back_azimuth_deg": 44.14290047878609,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1094b_DISP_ZNE.mseed",
+          "path": "deglitched/S1094b.mseed",
+          "sha256": "ae191fb4d96a62c5d186930bc279494dd45c0237c298b5bbfc15a92e433fec1f",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2021-12-24T22:38:02.782000Z",
+              "end_utc": "2021-12-24T23:38:02.732000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2021-12-24T22:38:02.782000Z",
+              "end_utc": "2021-12-24T23:38:02.732000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2021-12-24T22:38:02.781000Z",
+              "end_utc": "2021-12-24T23:38:02.731000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1094b",
+          "path": "denoised/S1094b.mseed",
+          "sha256": "5d3b4b1e9aa105af2145de3dab3a0dd884f36bcc1d485c5782e15040cb4f7611",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-12-24T22:42:08.045000Z",
+              "end_utc": "2021-12-24T23:09:20.045000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-12-24T22:42:08.045000Z",
+              "end_utc": "2021-12-24T23:09:20.045000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-12-24T22:42:08.045000Z",
+              "end_utc": "2021-12-24T23:09:20.045000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1097a",
+      "in_mqs_v14_lf_family": true,
+      "family": "LOW_FREQUENCY",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2021-12-27T10:34:01.542553Z",
+      "distance_deg": null,
+      "parent_phase": "x1",
+      "parent_arrival_utc": "2021-12-27T10:37:06.773141Z",
+      "back_azimuth_deg": 0.0,
+      "products": {
+        "deglitched": {
+          "status": "missing",
+          "units": "m",
+          "source_filename": "deglitched_S1097a_DISP_ZNE.mseed"
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1097a",
+          "path": "denoised/S1097a.mseed",
+          "sha256": "690ed946828bccccdd1f67a55ab56b2a8090babf45f0f88dacd3cfdb7c94455a",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2021-12-27T10:34:01.552000Z",
+              "end_utc": "2021-12-27T11:01:13.552000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2021-12-27T10:34:01.552000Z",
+              "end_utc": "2021-12-27T11:01:13.552000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2021-12-27T10:34:01.552000Z",
+              "end_utc": "2021-12-27T11:01:13.552000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1102a",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2022-01-02T04:27:10.093677Z",
+      "distance_deg": 73.31,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2022-01-02T04:35:30.847431Z",
+      "back_azimuth_deg": 285.948618607743,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1102a_DISP_ZNE.mseed",
+          "path": "deglitched/S1102a.mseed",
+          "sha256": "9e8af7289dd1a491e2ad9b4a38d9f957571e9caebbc7db04be24f3ee4be9a87a",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2022-01-02T04:27:10.124000Z",
+              "end_utc": "2022-01-02T05:27:10.074000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2022-01-02T04:27:10.123000Z",
+              "end_utc": "2022-01-02T05:27:10.073000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2022-01-02T04:27:10.123000Z",
+              "end_utc": "2022-01-02T05:27:10.073000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1102a",
+          "path": "denoised/S1102a.mseed",
+          "sha256": "33cc37f700016dc7ad94697aae47a66058d1a806a080d1d7a2ab31d604505dae",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2022-01-02T04:32:28.862000Z",
+              "end_utc": "2022-01-02T04:59:40.862000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2022-01-02T04:32:28.862000Z",
+              "end_utc": "2022-01-02T04:59:40.862000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2022-01-02T04:32:28.862000Z",
+              "end_utc": "2022-01-02T04:59:40.862000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1133c",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2022-02-03T08:04:38.145711Z",
+      "distance_deg": 30.19,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2022-02-03T08:08:27.938504Z",
+      "back_azimuth_deg": 90.98577632697149,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1133c_DISP_ZNE.mseed",
+          "path": "deglitched/S1133c.mseed",
+          "sha256": "0427fffb4c7b398e48dab13b37ce7a7f4558229f2ec2deaa71983a47b05b5e30",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2022-02-03T08:04:36.508000Z",
+              "end_utc": "2022-02-03T09:04:36.458000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2022-02-03T08:04:36.509000Z",
+              "end_utc": "2022-02-03T09:04:36.459000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2022-02-03T08:04:36.508000Z",
+              "end_utc": "2022-02-03T09:04:36.458000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1133c",
+          "path": "denoised/S1133c.mseed",
+          "sha256": "3124cfeee38994a4414652cd3f3d5bb3a7c7c81052246e2dc4e5bb7a1337d53a",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2022-02-03T08:05:25.308000Z",
+              "end_utc": "2022-02-03T08:32:37.308000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2022-02-03T08:05:25.308000Z",
+              "end_utc": "2022-02-03T08:32:37.308000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2022-02-03T08:05:25.308000Z",
+              "end_utc": "2022-02-03T08:32:37.308000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1153a",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2022-02-23T21:00:32.548262Z",
+      "distance_deg": 84.81,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2022-02-23T21:09:45.253968Z",
+      "back_azimuth_deg": 0.0,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1153a_DISP_ZNE.mseed",
+          "path": "deglitched/S1153a.mseed",
+          "sha256": "1f76b1d7136ad2e041ab48521b93b91d5e864fa641e6bb5e69a009c5992bf95d",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2022-02-23T21:00:32.589000Z",
+              "end_utc": "2022-02-23T22:00:32.539000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2022-02-23T21:00:32.590000Z",
+              "end_utc": "2022-02-23T22:00:32.540000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2022-02-23T21:00:32.589000Z",
+              "end_utc": "2022-02-23T22:00:32.539000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1153a",
+          "path": "denoised/S1153a.mseed",
+          "sha256": "edfac580a98d7da41b6a1dc2c12bcf92e7c7d2815135dd9144d4e228ec8d6346",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2022-02-23T21:06:25.547000Z",
+              "end_utc": "2022-02-23T21:33:37.547000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2022-02-23T21:06:25.547000Z",
+              "end_utc": "2022-02-23T21:33:37.547000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2022-02-23T21:06:25.547000Z",
+              "end_utc": "2022-02-23T21:33:37.547000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1157a",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2022-02-27T01:02:36.620313Z",
+      "distance_deg": 35.58,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2022-02-27T01:07:07.386079Z",
+      "back_azimuth_deg": 0.0,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1157a_DISP_ZNE.mseed",
+          "path": "deglitched/S1157a.mseed",
+          "sha256": "a58c6ca3ccda9ed3449c69301e92aa302fcfa2d4814ed7be1d6081924a80818d",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2022-02-27T01:02:36.628000Z",
+              "end_utc": "2022-02-27T02:02:36.578000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2022-02-27T01:02:36.628000Z",
+              "end_utc": "2022-02-27T02:02:36.578000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2022-02-27T01:02:36.628000Z",
+              "end_utc": "2022-02-27T02:02:36.578000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1157a",
+          "path": "denoised/S1157a.mseed",
+          "sha256": "099e9349c5ea225b9aafc725ea7ee2da746db179cb942fc358ddf6781e870a59",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2022-02-27T01:04:02.401000Z",
+              "end_utc": "2022-02-27T01:31:14.401000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2022-02-27T01:04:02.401000Z",
+              "end_utc": "2022-02-27T01:31:14.401000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2022-02-27T01:04:02.401000Z",
+              "end_utc": "2022-02-27T01:31:14.401000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1197a",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2022-04-09T22:05:52.416870Z",
+      "distance_deg": 31.98,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2022-04-09T22:09:55.523977Z",
+      "back_azimuth_deg": 0.0,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1197a_DISP_ZNE.mseed",
+          "path": "deglitched/S1197a.mseed",
+          "sha256": "893bbfd70d3f5631d15cf827c0868a4b35c52fc0e9e574aa6dc066a16e795a03",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2022-04-09T22:05:52.434000Z",
+              "end_utc": "2022-04-09T23:05:52.384000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2022-04-09T22:05:52.434000Z",
+              "end_utc": "2022-04-09T23:05:52.384000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2022-04-09T22:05:52.434000Z",
+              "end_utc": "2022-04-09T23:05:52.384000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1197a",
+          "path": "denoised/S1197a.mseed",
+          "sha256": "d9e190a9217435de276b033e0b70856eef5835727adc883f99f98a39adee9093",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2022-04-09T22:06:33.760000Z",
+              "end_utc": "2022-04-09T22:33:45.760000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2022-04-09T22:06:33.760000Z",
+              "end_utc": "2022-04-09T22:33:45.760000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2022-04-09T22:06:33.760000Z",
+              "end_utc": "2022-04-09T22:33:45.760000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1222a",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "A",
+      "origin_time": "2022-05-04T23:23:07.856945Z",
+      "distance_deg": 37.01,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2022-05-04T23:27:45.836925Z",
+      "back_azimuth_deg": 100.9241766561476,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1222a_DISP_ZNE.mseed",
+          "path": "deglitched/S1222a.mseed",
+          "sha256": "7bd2d96dfcff5ff01fc94270c67b264320fa11db3e32db377ae89a95ce2fdadf",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2022-05-04T23:23:07.753000Z",
+              "end_utc": "2022-05-05T00:23:07.653000Z",
+              "npts": 71999,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2022-05-04T23:23:07.753000Z",
+              "end_utc": "2022-05-05T00:23:07.653000Z",
+              "npts": 71999,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2022-05-04T23:23:07.753000Z",
+              "end_utc": "2022-05-05T00:23:07.653000Z",
+              "npts": 71999,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1222a",
+          "path": "denoised/S1222a.mseed",
+          "sha256": "6f7f802b4258d02ea679905fd1396e5071e471de9f0624b26fa88e9526954c8c",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2022-05-04T23:24:45.862000Z",
+              "end_utc": "2022-05-04T23:51:57.862000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2022-05-04T23:24:45.862000Z",
+              "end_utc": "2022-05-04T23:51:57.862000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2022-05-04T23:24:45.862000Z",
+              "end_utc": "2022-05-04T23:51:57.862000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "S1415a",
+      "in_mqs_v14_lf_family": true,
+      "family": "BROADBAND",
+      "family_source": "MQS_V14",
+      "quality": "B",
+      "origin_time": "2022-11-19T21:53:34.000000Z",
+      "distance_deg": 88.22,
+      "parent_phase": "P",
+      "parent_arrival_utc": "2022-11-19T21:56:13.594137Z",
+      "back_azimuth_deg": 0.0,
+      "products": {
+        "deglitched": {
+          "status": "available",
+          "units": "m",
+          "source_filename": "deglitched_S1415a_DISP_ZNE.mseed",
+          "path": "deglitched/S1415a.mseed",
+          "sha256": "f95974994f26ce1361016d6234c0f6362cfc49cfe1e2e70c52740b98844849e6",
+          "bytes": 1941504,
+          "traces": [
+            {
+              "id": "XB.ELYSE.02.BHZ",
+              "start_utc": "2022-11-19T21:53:34.004000Z",
+              "end_utc": "2022-11-19T22:53:33.954000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHN",
+              "start_utc": "2022-11-19T21:53:34.005000Z",
+              "end_utc": "2022-11-19T22:53:33.955000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYSE.02.BHE",
+              "start_utc": "2022-11-19T21:53:34.005000Z",
+              "end_utc": "2022-11-19T22:53:33.955000Z",
+              "npts": 72000,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        },
+        "denoised": {
+          "status": "available",
+          "units": "m/s",
+          "source_filename": "S1415a",
+          "path": "denoised/S1415a.mseed",
+          "sha256": "b151ec4ddbb83ffb86db2fe2e480b184df214dd2f6835dae0691552649f4c328",
+          "bytes": 880128,
+          "traces": [
+            {
+              "id": "XB.ELYDL.03.BHZ",
+              "start_utc": "2022-11-19T21:52:49.132000Z",
+              "end_utc": "2022-11-19T22:20:01.132000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHN",
+              "start_utc": "2022-11-19T21:52:49.132000Z",
+              "end_utc": "2022-11-19T22:20:01.132000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            },
+            {
+              "id": "XB.ELYDL.03.BHE",
+              "start_utc": "2022-11-19T21:52:49.132000Z",
+              "end_utc": "2022-11-19T22:20:01.132000Z",
+              "npts": 32641,
+              "sampling_rate_hz": 20.0
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

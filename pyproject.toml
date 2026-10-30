@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bayesian-rfpy"
+version = "0.1.0"
+description = "Receiver-function deconvolution and CPS-backed layer-cake inversion"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = ["numpy>=1.24,<2", "scipy>=1.10,<2", "obspy>=1.4.2,<2"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.7"]
+notebook = ["matplotlib>=3.7", "jupyterlab>=4", "ipykernel>=6", "nbformat>=5", "nbclient>=0.8"]
+test = ["pytest>=7", "matplotlib>=3.7"]
+dev = ["pytest>=7", "matplotlib>=3.7", "build>=1", "ruff>=0.9"]
+
+[project.scripts]
+rfpy = "bayesian_rf.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+bayesian_rf = ["_cps/*.f", "_cps/*.md", "_cps/LICENSE*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+  "integration: requires the repository's example_synthetics inputs",
+  "insight: requires locally imported InSight waveform inputs",
+  "cps: requires gfortran or an external hrftn96 executable",
+  "slow: longer scientific recovery experiment, opt in explicitly",
+]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

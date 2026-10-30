@@ -1,0 +1,5 @@
+ensemble_prf.txt and Srf_data.txt are bayesian RFs 
+provided by DK / Jung-Hun Song
+
+regarding Srf_data.txt, this is what Jung-Hun says:
+"One thing to note is that, for easier comparison with the Prf, I flipped the Srf in both time and amplitude. In other words, the receiver function was reversed in time and multiplied by −1 so that the resulting Srf is displayed at positive time. Before using it for the inversion, please make sure that the forward synthetic calculations follow the same convention. Alternatively, you could reconstruct the Srf in its original orientation before making the comparison."

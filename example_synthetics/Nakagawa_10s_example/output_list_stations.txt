@@ -1,0 +1,15 @@
+
+ total number of stations (found):           12
+
+ II.GAR epicentral distance    37.1184044      deg
+ II.BRVK epicentral distance    36.4250526      deg
+ II.TLY epicentral distance    56.7251091      deg
+ II.RAYN epicentral distance    23.6352158      deg
+ IU.KONO epicentral distance    24.2483482      deg
+ II.MSEY epicentral distance    51.4023743      deg
+ II.KAPI epicentral distance    98.4873734      deg
+ IU.MSKU epicentral distance    39.3919563      deg
+ IU.CTAO epicentral distance    128.218582      deg
+ IU.SJG epicentral distance    78.5752335      deg
+ IU.RAR epicentral distance    164.120163      deg
+ II.RPN epicentral distance    138.685013      deg

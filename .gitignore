@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+build/
+dist/
+results/
+tmp/
+.cache/
+.DS_Store
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+*.o
+*.mod
+*.so
+# Raw research data stay local; use the documented import command to populate.
+insight_data/deglitched/
+insight_data/denoised/
+insight_data/legacy_sac/
+insight_data/catalogs/*.xml
+# Keep original synthetic inputs, but not machine-generated TauP caches.
+example_synthetics/**/*.npz
